@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #000;
+  color: #fff;
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.auth-bg {
+  background:
+    radial-gradient(ellipse 55% 60% at 0% 100%, rgba(105, 54, 242, 0.95) 0%, rgba(105, 54, 242, 0.55) 40%, transparent 75%),
+    radial-gradient(ellipse 45% 45% at 100% 100%, rgba(155, 120, 247, 0.85) 0%, rgba(127, 81, 249, 0.4) 45%, transparent 80%),
+    radial-gradient(ellipse 100% 40% at 50% 115%, rgba(105, 54, 242, 0.6) 0%, transparent 75%),
+    #000;
+  background-repeat: no-repeat;
+}
